@@ -19,9 +19,9 @@ jobs:
         dotnet-version: 3.1.100
 
     - name: Build
-      run: dotnet build --configuration Release
+      run: dotnet build Reactive.Testing.Marbles.sln --configuration Release
       working-directory: ./src
 
     - name: Run unit tests
-      run: dotnet test --configuration Release
+      run: dotnet test Reactive.Testing.Marbles.sln --configuration Release
       working-directory: ./src
