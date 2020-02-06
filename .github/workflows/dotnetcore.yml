@@ -50,4 +50,4 @@ jobs:
         run: dotnet pack Reactive.Testing.Marbles.sln --output ./artifacts --configuration Release -p:Version=$VERSION
           
       - name: Publish packages
-        run: dotnet nuget push ./artifacts/**.nupkg --skip-duplicate --source nuget.org --api-key ${{secrets.NUGET_API_KEY}}
+        run: dotnet nuget push ./artifacts/*.nupkg --skip-duplicate --source nuget.org --api-key ${{secrets.NUGET_API_KEY}}
