@@ -47,7 +47,7 @@ jobs:
         run: echo "::set-env name=VERSION::$(git describe --tags --dirty)"
         
       - name: Pack
-        run: dotnet pack --output ./artifacts --configuration Release -p:Version=$VERSION
+        run: dotnet pack Reactive.Testing.Marbles.sln --output ./artifacts --configuration Release -p:Version=$VERSION
           
       - name: Publish packages
         run: dotnet nuget push ./artifacts/**.nupkg --source nuget.org --api-key ${{secrets.NUGET_API_KEY}}
