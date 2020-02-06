@@ -5,7 +5,13 @@
         <Nullable>enable</Nullable>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
         <LangVersion>latest</LangVersion>
-        <Version>1.0.0</Version>
+        
+        <Authors>Reactive Marbles</Authors>
+        <Company />
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/reactive-marbles/Reactive.Testing.Marbles/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/reactive-marbles/Reactive.Testing.Marbles</RepositoryUrl>        
+        <PackageProjectUrl>https://github.com/reactive-marbles/Reactive.Testing.Marbles</PackageProjectUrl>        
     </PropertyGroup>
 
     <ItemGroup>
