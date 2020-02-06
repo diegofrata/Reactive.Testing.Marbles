@@ -20,8 +20,6 @@ jobs:
 
     - name: Build
       run: dotnet build Reactive.Testing.Marbles.sln --configuration Release
-      working-directory: ./src
 
     - name: Run unit tests
       run: dotnet test Reactive.Testing.Marbles.sln --configuration Release
-      working-directory: ./src
