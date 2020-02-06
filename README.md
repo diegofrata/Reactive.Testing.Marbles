@@ -1,3 +1,4 @@
+![Nuget](https://img.shields.io/nuget/v/Reactive.Testing.Marbles)
 # Reactive.Testing.Marbles
 ### What is it?
 Reactive.Testing.Marbles is a marble testing library inspired by [RxJS marble testing](https://github.com/ReactiveX/rxjs/blob/master/doc/marble-testing.md) and [MarbleTest.Net](https://github.com/alexvictoor/MarbleTest.Net). The goal of this library is to provide support for the RxJS marble syntax (except materialization of inner observables), while at the same time, adding new features that can make testing observables in easier for .NET developers.
